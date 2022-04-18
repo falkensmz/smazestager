@@ -26,6 +26,10 @@ This type of payload is much smaller than sophisticated reverse/bind shells or e
  - Change the "sleep_before" variable , if desired, to how many seconds you want smaze_stager to wait before it downloads the malware.
  - Change the "sleep_after" variable, if desired, to how many seconds you want smaze_stager to wait before it executes the malware.
 
+## How to build it?
+
+ - You can build smaze_stager as an executable (.exe) using something like <a href="https://pypi.org/project/pyinstaller/?msclkid=217044b9bef311ecbc0ff268d0619099"> pyinstaller</a> or <a href="https://pypi.org/project/pyarmor/?msclkid=1fbcf853bef311ec92869880b47e1ad0"> pyarmor </a>
+
 ## Disclaimer 
 
 This program is made for educational purposes only. The developer of this payload is not responsible for any kind of misuse.
